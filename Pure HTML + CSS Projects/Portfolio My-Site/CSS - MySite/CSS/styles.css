@@ -1,0 +1,212 @@
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    /* margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px */
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    /* 100% = 16px; So if we want to have 90px. Therefore 90px/16 = 562.5
+  So Basic Pixel to Percentage converter.
+
+  1em = 16px= 100%
+  5.625em = 90px = 562.5%
+
+  40px/ 16px = 2.5em
+
+  ALways use rem in font size, rem allows the font size to be independent of
+  its any parent class.
+  */
+    /* font-size: 562.5%; */
+    /* font-size: 5.625em; */
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    /* line height Is basically the distance around the text */
+    /* line-height: 2; */
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    margin: 100px auto;
+    /* dotted border + colour + width_of_all_dots + height=0 */
+    border: dotted #EAF6F6 6px;
+    border-bottom: 0;
+    /* border-left: 0; */
+    /* border-right: 0; */
+    /* border-width: thick; */
+    width: 3%;
+}
+
+p {
+    /* I am targetting all the paragraph in website and applying line-height */
+    line-height: 2;
+}
+
+.profile-img {
+    width: 150px;
+    /* height: 200px; */
+    border-radius: 10000px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 200px;
+    bottom: 300px;
+}
+
+.pro {
+    text-decoration: underline;
+    /* text-decoration: */
+}
+
+.Top_Container {
+    background-color: #EAF6F8;
+    position: relative;
+    padding-top: 100px;
+    margin-bottom: 100px;
+    /*
+  /* padding: 100px; */
+    /* border: solid;
+  border-width: 50px;
+  border-color: inherit;
+
+  margin: 100px; */
+    /* height: 500px;
+   width: 1000px; */
+}
+
+
+/* 30% width of the parent container which is ofcourse the middle container */
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.skill-row-dnd {
+    width: 50%;
+    /* 100px on top and bottom and auto on left and right to center the whole thing */
+    margin: 200px auto;
+    text-align: left;
+}
+
+.skill-row-ml {
+    width: 50%;
+    /* 100px on top and bottom and auto on left and right to center the whole thing */
+    margin: 0 auto;
+    padding-bottom: 50px;
+    text-align: left;
+    line-height: 2;
+}
+
+.dnd-img {
+    /* Use float in order to wrap text around image. To put the image as same line of the text
+  To wrap text arond the image : use Float , Do not use this for positioning */
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+}
+
+.ml-img {
+    /* Use float in order to wrap text around image. To put the image as same line of the text */
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.contact-me {
+    line-height: 50px;
+}
+
+.contact-message {
+    width: 40%;
+    /* margin: top -- left+right -- botton */
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 9px 20px 10px 20px;
+    text-decoration: none;
+    /* line-height: 200px; */
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.bottom-container {
+    padding: 50px 0 20px;
+    background-color: #66BFBF;
+}
+
+.footer-link {
+    margin: 10px 20px;
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+
+/* To antifloat the wrapping text we use "clear" keyword */
+
+
+/* .antifloat_dnd{
+  clear: left;
+}
+
+.antifloat_ml{
+  clear: right;
+}  */
