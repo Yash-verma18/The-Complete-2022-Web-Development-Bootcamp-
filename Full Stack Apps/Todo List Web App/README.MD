@@ -1,7 +1,7 @@
 
 #  To do list App
 
-- To do List app is Dynamic Web app for creating your daily to do's. Helps you efficiently use your time [Linktree](https://linktr.ee/) implemented in JavaScript.
+- To do List app is Dynamic Web app for creating your daily to do's. Helps you efficiently use your time 
 - Backend : NodeJS, EJS, MongoDB Atlas
 - Frontend : HTML, CSS, Bootstrap
 
